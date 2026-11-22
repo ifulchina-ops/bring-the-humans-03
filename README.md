@@ -35,12 +35,24 @@ cut — giant $500 hook, fast cuts on a 128 BPM beat, no voice at all, just
 music and bold on-screen text — ending on the same referral card with code
 `j62x7qjj`. The v2 video is the one `VIDEO.json` points at now.
 
+## v3 — voice-led rebuild (22 Nov)
+
+The v2 cut was also misread by make.fun's TikTok reader, so the ad was
+rebuilt again as `build_v3.py`: a voice-led cut — a fresh Indonesian
+voiceover narrates ("Lu tau ga? AI lu bisa kerja buat lu."), with
+illustration-driven scenes following the narration, no music track (music
+added from TikTok at upload), ending on the same referral card with code
+`j62x7qjj`. The v3 video is the one `VIDEO.json` points at now, posted with
+the full caption format (bounty link + play code + referral link).
+
 ## What's in this repo
 
 - `main.ts` — the entry program. It validates `VIDEO.json` and copies it
   into the output folder. Run it with `node main.ts` (Node 22).
 - `build_v2.py` — the program that built the v2 ad (ffmpeg + PIL + a
   synthesized beat, from the press pack). Run it with `python3 build_v2.py`.
+- `build_v3.py` — the program that built the v3 ad (ffmpeg + PIL + a TTS
+  voiceover, from the press pack). Run it with `python3 build_v3.py`.
 - `VIDEO.json` — the full TikTok address of the posted ad.
 
 ## The video
