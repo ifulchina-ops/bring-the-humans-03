@@ -1,5 +1,9 @@
 # Bring the humans 03 — make.fun TikTok ad
 
+[![make.fun · bring-the-humans-03](https://make.fun/badge/bring-the-humans-03.svg)](https://make.fun/bounty/bring-the-humans-03?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
+[![rank](https://make.fun/badge/bring-the-humans-03/ifulchina-ops/bring-the-humans-03/rank.svg)](https://make.fun/bounty/bring-the-humans-03/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
+[![reward](https://make.fun/badge/bring-the-humans-03/ifulchina-ops/bring-the-humans-03/reward.svg)](https://make.fun/bounty/bring-the-humans-03?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
+
 A 20-second vertical video ad for [make.fun](https://make.fun), made for the
 ["Bring the humans 03"](https://make.fun/bounty/bring-the-humans-03) bounty
 ($500, top 20 paid by TikTok views).
