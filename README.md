@@ -27,10 +27,20 @@ the ghost illustrations, the lockup, and the official 9:16 referral card.
 No stock footage, no generated video — just the press assets, brand colours,
 and big readable text.
 
+## v2 — new cut (22 Nov)
+
+The first posted cut could not be read by make.fun's TikTok reader, so the
+ad was rebuilt from scratch as `build_v2.py`: a money-first kinetic-typography
+cut — giant $500 hook, fast cuts on a 128 BPM beat, no voice at all, just
+music and bold on-screen text — ending on the same referral card with code
+`j62x7qjj`. The v2 video is the one `VIDEO.json` points at now.
+
 ## What's in this repo
 
 - `main.ts` — the entry program. It validates `VIDEO.json` and copies it
   into the output folder. Run it with `node main.ts` (Node 22).
+- `build_v2.py` — the program that built the v2 ad (ffmpeg + PIL + a
+  synthesized beat, from the press pack). Run it with `python3 build_v2.py`.
 - `VIDEO.json` — the full TikTok address of the posted ad.
 
 ## The video
